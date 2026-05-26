@@ -4,6 +4,7 @@ class Bishop {
         this.type = "BISHOP";
     }
 
+    
     validateMove(move) {
         const dx = Math.abs(move.destinationX - move.sourceX);
         const dy = Math.abs(move.destinationY - move.sourceY);

@@ -4,6 +4,7 @@ class Knight {
         this.type = "KNIGHT";
     }
 
+    
     validateMove(move) {
         
         // dokoncz implementacje

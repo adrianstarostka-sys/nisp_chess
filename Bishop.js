@@ -4,6 +4,7 @@ class Bishop {
         this.type = "BISHOP";
     }
 
+    
     validateMove(move) {
         
         // dokoncz implementacje

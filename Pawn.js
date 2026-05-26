@@ -4,6 +4,7 @@ class Pawn {
         this.type = "PAWN";
     }
 
+    
     validateMove(move) {
 
         // Sprawdzenie warunków poprawnego ruchu pionka

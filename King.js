@@ -4,6 +4,7 @@ class King {
         this.type = "KING";
     }
 
+    
     validateMove(move) {
         
         // dokoncz implementacje

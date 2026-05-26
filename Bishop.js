@@ -5,8 +5,10 @@ class Bishop {
     }
 
     validateMove(move) {
+        const dx = Math.abs(move.destinationX - move.sourceX);
+        const dy = Math.abs(move.destinationY - move.sourceY);
         
-        // dokoncz implementacje
-        return false;
+        // Goniec porusza się po przekątnych i musi zmienić pole
+        return dx === dy && dx > 0;
     }
 }

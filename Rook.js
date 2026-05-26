@@ -4,6 +4,7 @@ class Rook {
         this.type = "ROOK";
     }
 
+    
     validateMove(move) {
         
         // dokoncz implementacje

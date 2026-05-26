@@ -4,6 +4,7 @@ class Queen {
         this.type = "QUEEN";
     }
 
+    
     validateMove(move) {
         
         // dokoncz implementacje
